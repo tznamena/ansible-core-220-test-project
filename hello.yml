@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Hello
+      ansible.builtin.debug:
+        msg: "Test project for ansible-core 2.20 validation"
