@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: Feature branch test
+      ansible.builtin.debug:
+        msg: "This playbook only exists on feature-branch-test"
