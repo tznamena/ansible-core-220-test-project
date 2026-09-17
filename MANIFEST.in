@@ -1,3 +1,4 @@
 include hello.yml
 include roles/requirements.yml
 include collections/requirements.yml
+prune .archive
